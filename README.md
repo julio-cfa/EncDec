@@ -1,24 +1,33 @@
 # EncDec
 Simple Python scripts to encrypt and decrypt files
 
+----
+### Installation
 
+Just clone the repository and run the scripts. 
+
+```
+git clone https://github.com/julio-cfa/EncDec.git
+```
+
+There are 2 requirements: the colorama and cryptography libraries. You can install them with pip (pip install colorama && pip install cryptography). It is quite simple.
+
+----
 ### Keygen
 
 ```
-japan:  ~/Scripts/encdec 
-→ python keygen.py 
+$ python keygen.py 
 What do you wanna call your filekey?
 example.key
 
 Your key was generated and you can find it inside the following file: example.key
 
 ```
-
+----
 ### Encrypt
 
 ```
-japan:  ~/Scripts/encdec 
-→ python encrypt.py 
+$ python encrypt.py 
 
           .-""-.
          / .--. \
@@ -43,11 +52,11 @@ example.file
 Your file has been successfully encrypted!
 ```
 
+----
 ### Decrypt
 
 ```
-japan:  ~/Scripts/encdec 
-→ python decrypt.py 
+$ python decrypt.py 
 
 
       .--.
